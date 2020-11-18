@@ -6,6 +6,7 @@ using namespace std;
 // P1 -> O
 // P2 -> X
 
+
 int main()
 {
 	Board board;
