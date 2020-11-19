@@ -9,4 +9,8 @@ public:
 	Board();
 	void printBoard();
 	bool play(int player, int row, int col);
+	bool isValidMove(int player, int row, int col);
+	bool isGameOver();
+	bool validMoveExists(int player);
+	void printScore();
 };
